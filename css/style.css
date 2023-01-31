@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+header{
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin:0 auto;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;  
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu a{
+    padding: 0 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/********************************** Section Banner Files locations **********************/
+
+section {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+}
+
+.content_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.illustration{
+    padding: 40px;
+}
+
+.txt_banner{
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.txt_banner h1{
+    font-size: 40px;
+    padding: 20px;
+    line-height: 60px;
+}
+
+.txt_banner p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+button{
+    background: rgb(77,197,211);
+    background: linear-gradient(121deg, rgba(77,197,211,1) 41%, rgba(60,174,208,1) 59%);
+    color: white;
+    width: 280px;
+    height: 50px;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+    border-color:hsl(217, 28%, 15%);
+    cursor: pointer;
+}
+
+
