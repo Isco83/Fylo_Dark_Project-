@@ -20,7 +20,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;  
+    padding: 20px 0;
+    margin: auto;
+    max-width: 1440px;  
 }
 
 .menu ul{
@@ -51,7 +53,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    max-width: 1440px;
+    margin: auto;    
 }
 
 .illustration{
@@ -102,6 +105,8 @@ section {
     justify-content: center;
     align-items: center;
     padding-top: 80px;
+    margin: auto;
+    max-width: 1440px;
 }
 
 .picture_txt{
@@ -114,6 +119,8 @@ section {
 
 .content_box{
     padding: 30px;
+    margin: auto;
+    max-width: 1440px;
 }
 
 .txt_description {
@@ -127,3 +134,63 @@ section {
     font-size: 18px;
     line-height: 40px;
 }
+
+/************************************** Section Banner Productive *****************************/
+
+.content___banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.txt_prod h1{
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+
+.txt_prod p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.txt_prod a{
+    color: rgb(98, 224, 217);
+    text-decoration: none;
+    line-height: 5px;
+}
+
+/****************************************** Section Banner comments ***********************************/
+
+.content____banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 1440px;
+    height: 500px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 25px;
+}
+
+.perfil img{
+    border-radius: 100px;
+    width: 50px;
+}
+
+.comments{
+    margin: auto;
+    max-width: 1440px;
+}
+
+
