@@ -13,6 +13,8 @@ header{
     width: 100%;
     max-width: 1440px;
     margin:0 auto;
+    position: relative;
+    z-index: 5;
     
 }
 
@@ -43,8 +45,34 @@ header{
 
 /********************************** Section Banner Files locations **********************/
 
-section {
+.bg{
     background-color: hsl(218, 28%, 13%);
+}
+
+.curve{
+    background-color: hsl(218, 28%, 13%);
+    position: absolute;
+    max-width: 1440px;
+    margin:0 auto;
+    z-index: 0;
+    top: 700px;
+}
+
+.curve svg{
+    fill: hsl(216, 53%, 9%);
+    mask: none;
+    display: flex;
+    margin: auto; 
+    max-width: 1440px;
+}
+
+.curve svg path{
+    fill: hsl(216, 53%, 9%);
+    mask: none;
+}
+
+section {
+    background-color: hsl(216, 53%, 9%);
     color: white;
     padding-bottom: 20px;
 }
@@ -96,6 +124,8 @@ section {
 .Get_button:active{
     background:linear-gradient(121deg, rgb(151, 212, 219) 41%, rgb(147, 201, 218) 59%); 
 }
+
+
 
 
 /******************************** Section Banner Illustrations ***********************/
@@ -191,6 +221,11 @@ section {
 .comments{
     margin: auto;
     max-width: 1440px;
+    
+}
+
+.name_country{
+    margin-left: 10px;
 }
 
 
