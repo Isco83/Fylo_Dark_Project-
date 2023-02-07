@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+header{
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin:0 auto;
+    position: relative;
+    z-index: 5;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: auto;
+    max-width: 1440px;  
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu a{
+    padding: 0 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/********************************** Section Banner Files locations **********************/
+
+.bg{
+    background-color: aqua;
+    
+}
+
+.curve{
+
+}
+
+.curve img{
+    position: absolute;
+    width: 100%;
+    top: 707px;
+    z-index: 5;
+}
+
+section {
+    background-color: hsl(216, 53%, 9%);
+    color: white;
+    padding-bottom: 20px;
+}
+
+.content_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;    
+}
+
+.illustration{
+    padding: 40px;
+}
+
+.txt_banner{
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.txt_banner h1{
+    font-size: 40px;
+    padding: 20px;
+    line-height: 60px;
+}
+
+.txt_banner p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+.Get_button{
+    
+    background: linear-gradient(121deg, rgba(77,197,211,1) 41%, rgba(60,174,208,1) 59%);
+    color: white;
+    width: 280px;
+    height: 60px;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+    border-color:hsl(217, 28%, 15%);
+    cursor: pointer;
+}
+
+.Get_button:active{
+    background:linear-gradient(121deg, rgb(151, 212, 219) 41%, rgb(147, 201, 218) 59%); 
+}
+
+
+
+
+/******************************** Section Banner Illustrations ***********************/
+
+.content__banner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.picture_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.content_box{
+    padding: 30px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.txt_description {
+    padding: 30px 0px;
+    line-height: 24px;
+}
+
+
+.title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/************************************** Section Banner Productive *****************************/
+
+.content___banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.txt_prod h1{
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+
+.txt_prod p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.txt_prod a{
+    color: rgb(98, 224, 217);
+    text-decoration: none;
+    line-height: 5px;
+}
+
+/****************************************** Section Banner comments ***********************************/
+
+.content____banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 1440px;
+    height: 500px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 25px;
+}
+
+.perfil img{
+    border-radius: 100px;
+    width: 50px;
+}
+
+.comments{
+    margin: auto;
+    max-width: 1440px;
+    
+}
+
+.name_country{
+    margin-left: 10px;
+}
+
+
+
+
+/******************* responsiv ************************************/
+@media screen and (max-width: 720px;){
+    .content{
+        flex: none;
+    }
+}
