@@ -9,13 +9,14 @@
     background-color: hsl(218, 28%, 13%);
 }
 
-.container{
+.container_header{
     max-width: 1440px;
     margin: 0 auto;
     background-color: hsl(218, 28%, 13%);
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    padding: 2em;
 }
 
 .logo img{
@@ -48,6 +49,15 @@ nav a{
 
 /************************** Section Banner Files locations **********************/
 
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7em;
+}
 
 .content_banner{
     display: flex;
@@ -69,12 +79,12 @@ nav a{
     line-height: 1.5em;
 }
 
-.txt_banner h1{
+.txt_banner h2{
     line-height: 1.4em;
 }
 
 .txt_banner p{ 
-    max-width: 440px;
+    max-width: 327px;
     margin-top: 1em;   
 }
 
@@ -130,7 +140,123 @@ button{
 
 .line {
     text-align: left;
+    text-decoration: none;
 }
+
+.linkspan {
+    color: aqua;
+}
+
+.line a{
+    text-decoration: none;
+}
+
+
+/************************* Section Banner comments **************************************/
+
+
+.comments{
+    text-align: left;
+    color: white;
+    background-color: hsl(217, 19%, 18%);
+    margin-top: 1.5em;
+    min-width: 380px;
+    padding: 2em 2em;
+    font-family: 'Raleway';
+}
+
+.comments p{
+    
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+.perfil img{
+    border-radius: 6em;
+    width: 3em;
+    margin-right: 1em;
+}
+
+.name_country{
+    font-weight: 600;
+    line-height: 25px;
+
+}
+
+.name_country span{
+    font-weight: 100;
+}
+
+
+/****************************** Section Banner Get Access ******************************/
+
+.mail {
+    color: rgb(0, 0, 0);
+    width: 16em;
+    height: 3.5em;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 1em;
+    border-color:hsl(217, 28%, 15%);
+    margin-top: 2em;
+    text-align: center;
+}
+
+/****************************** Section footer ******************************/
+
+.txt_prod{
+    max-width: 278px;
+    text-align: left;
+}
+
+.content_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 342px;
+    margin: 0 auto;
+    padding-bottom: 6em;
+}
+
+.content_footer a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.content_footer ul{
+    text-align: left;
+    line-height: 3em;
+}
+
+.icon_txt{
+    display: flex;
+}
+
+.content_footer ul{
+    margin-top: 60px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: contrast(0.5) brightness(20);
+}
+
+.redes img{
+    width: 10%;
+    margin:6em 0.5em 0em 0.5em;
+}
+
+
+
+
 
 
 /**************************************   media queri ****************************/
@@ -158,7 +284,6 @@ button{
         margin: auto;
         width: auto;
         text-decoration: underline;
-              
     }
 
     nav a {
