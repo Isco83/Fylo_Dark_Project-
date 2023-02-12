@@ -64,7 +64,7 @@ nav a{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 342px;
+    min-width: 420px;
     margin: 0 auto;
 }
 
@@ -84,7 +84,7 @@ nav a{
 }
 
 .txt_banner p{ 
-    max-width: 327px;
+    max-width: 465px;
     margin-top: 1em;   
 }
 
@@ -106,17 +106,16 @@ button{
 
 .txt_description {
     color: white;
-    padding: 30px 0px;
     line-height: 1.6em;
-    max-width: 339px;
-    margin-top: 1em; 
+    padding-bottom: 6em;
 }
 
 
 .title{
+    color: white;
     font-weight: 700;
     font-size: 1.1em;
-    line-height: 3em;
+    padding: 1em;
 }
 
 
@@ -126,6 +125,7 @@ button{
     color: white;
     margin-top: 5em;
     line-height: 1.5em;
+    max-width: 366px;
 }
 
 .txt_prod h1{
@@ -135,7 +135,7 @@ button{
 
 .txt_prod p{ 
     text-align: left;
-    margin-top: 1em;   
+    margin: 1em 0;   
 }
 
 .line {
@@ -151,6 +151,19 @@ button{
     text-decoration: none;
 }
 
+.image img{
+    max-width: 100%;
+}
+
+.content__banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
 
 /************************* Section Banner comments **************************************/
 
@@ -163,6 +176,7 @@ button{
     min-width: 380px;
     padding: 2em 2em;
     font-family: 'Raleway';
+    position: relative;
 }
 
 .comments p{
@@ -191,6 +205,13 @@ button{
     font-weight: 100;
 }
 
+.quotes{
+    position: absolute;
+    top: 202em;
+    right: 28em;
+    max-width: 303;
+}
+
 
 /****************************** Section Banner Get Access ******************************/
 
@@ -208,16 +229,11 @@ button{
 
 /****************************** Section footer ******************************/
 
-.txt_prod{
-    max-width: 278px;
-    text-align: left;
-}
-
 .content_footer{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 342px;
+    max-width: 329px;
     margin: 0 auto;
     padding-bottom: 6em;
 }
@@ -227,6 +243,8 @@ button{
     color: white;
     text-decoration: none;
     font-weight: 500;
+    width: 100%;
+    margin-top: 1em;
 }
 
 .content_footer ul{
@@ -236,6 +254,13 @@ button{
 
 .icon_txt{
     display: flex;
+}
+
+.icon_txt img{
+    width: 12%;
+    height: 12%;
+    padding-right: 1em;
+    margin-top: 1em;
 }
 
 .content_footer ul{
@@ -290,7 +315,86 @@ button{
         font-size: 1.2em;
         padding: 0 0.5em;
     }
-    /****** seccion 2 ******/
+    /****** seccion 2 Files locations ******/
 
-    
+
+
+
+.illustration img{
+    max-width: 150%;
+}
+
+.txt_banner p{ 
+    min-width: 508px;
+    margin-top: 1em;
+    padding: none;   
+}
+
+.txt_banner{
+    color: white;
+    padding: 0.3em;
+    margin-top: 5em;
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 526px;
+}
+
+ /****** seccion 3 Illustrations ******/
+
+.content_box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: auto;
+    min-width: 1024px;
+    padding-top: 6em;
+}
+
+.txt_description {
+    color: white;
+    line-height: 1.6em;
+    max-width: 432px;
+}
+
+.picture_txt h3{
+    padding: 1em;
+}
+
+/****** seccion 4 Banner Productive ******/
+.content__banner{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1024px;
+}
+
+/****** seccion 5 Banner comments ******/
+
+.content___banner{
+    display: flex;
+    flex-direction: row;
+    min-width: 720px;
+    align-items: center;
+    margin: auto;
+}
+
+.content___banner p{
+    width: 330px;
+
+}
+
+.comments{
+    width: 20em;
+    padding:1em;
+    margin-right: 1.5em;
+}
+
+.comments p{
+    padding: 0.5em;
+}
+
+
+
 }
