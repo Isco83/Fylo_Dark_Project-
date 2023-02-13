@@ -4,10 +4,15 @@
     font-family: 'Raleway';
 }
 
-.bg{
+header{
     width: 100%;
     background-color: hsl(218, 28%, 13%);
 }
+
+section{
+    background-color: hsl(218, 28%, 13%);
+}
+
 
 .container_header{
     max-width: 1440px;
@@ -47,7 +52,7 @@ nav a{
     padding: 0 0.5em;  
 }
 
-/************************** Section Banner Files locations **********************/
+/************************************* Section Banner Files locations *********************************************/
 
 .container{
     max-width: 1440px;
@@ -102,7 +107,7 @@ button{
     margin-top: 2em;
 }
 
-/************************** Section Banner Illustrations ******************/
+/**************************************** Section Banner Illustrations ******************************/
 
 .txt_description {
     color: white;
@@ -119,7 +124,7 @@ button{
 }
 
 
-/******************************  Section Banner Productive ***********************/
+/*******************************************  Section Banner Productive *************************************/
 
 .txt_prod{
     color: white;
@@ -160,12 +165,12 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 420px;
+    max-width: 330px;
     margin: 0 auto;
 }
 
 
-/************************* Section Banner comments **************************************/
+/****************************************** Section Banner comments **************************************/
 
 
 .comments{
@@ -179,9 +184,6 @@ button{
     position: relative;
 }
 
-.comments p{
-    
-}
 
 .perfil{
     display: flex;
@@ -213,7 +215,7 @@ button{
 }
 
 
-/****************************** Section Banner Get Access ******************************/
+/********************************************** Section Banner Get Access ******************************/
 
 .mail {
     color: rgb(0, 0, 0);
@@ -227,7 +229,15 @@ button{
     text-align: center;
 }
 
-/****************************** Section footer ******************************/
+/******************************************************** Section footer ******************************/
+
+footer{
+    background-color:hsl(218, 22%, 7%) ;
+}
+
+.bg_footer{
+    background-color:hsl(218, 22%, 7%) ;
+}
 
 .content_footer{
     display: flex;
@@ -236,6 +246,7 @@ button{
     max-width: 329px;
     margin: 0 auto;
     padding-bottom: 6em;
+    background-color:hsl(218, 22%, 7%) ;
 }
 
 .content_footer a{
@@ -284,7 +295,7 @@ button{
 
 
 
-/**************************************   media queri ****************************/
+/*********************   media queri *******************/
 
 
 @media (min-width: 720px){
@@ -394,6 +405,32 @@ button{
 .comments p{
     padding: 0.5em;
 }
+
+/****** seccion 6 Banner Get Access ******/
+
+.input_button{
+    display: flex;
+    padding-bottom: 2em;
+}
+
+.txt_banner{
+    max-width: 1440px;
+    padding: 3em;
+    background-color:  hsl(217, 19%, 18%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 0.5em;
+}
+
+.txt_banner p{
+    min-width: 718px;
+}
+
+/****** seccion 7 Banner footer ******/
+
+.content_footer{
+    flex-direction: row;
+}
+
 
 
 
